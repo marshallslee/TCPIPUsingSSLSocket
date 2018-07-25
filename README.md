@@ -17,3 +17,12 @@ This project contains two files - TLSServerTestDrive.java and EchoClient.java. T
 - Client: keytool -import -alias trustServer -file trustServer.cer -keystore client.jks
 
 5. Compile and run the server-side programme first (TLSServerTestDrive.java) and then do the same with the client-side programme (EchoClient.java).
+
+## Screenshots
+If you have a look at each screenshot below, you can find the client sending 'hello' to the server and the server is receiving that message.
+
+(1) Client-side
+![screenshot from 2018-04-04 17-04-43](https://user-images.githubusercontent.com/35015246/43180278-1f30ab1e-9012-11e8-9fb8-88a05e3e0904.png)
+
+(2) Server-side
+![screenshot from 2018-04-04 17-07-46](https://user-images.githubusercontent.com/35015246/43180289-2cc7e580-9012-11e8-9c06-010c74b29e42.png)
